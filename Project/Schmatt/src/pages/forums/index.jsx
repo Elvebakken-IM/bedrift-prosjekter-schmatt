@@ -1,8 +1,7 @@
 import Navbar from "../navbar/navbar";
 import Selectforum from "./components/SelectForum";
-import Posts from "./components/Posts";
-import { use, useState } from "react";
-import {useEffect} from "react";
+import Posts from "./components/posts";
+import { useState } from "react";
 
 export default function forums() {
   const [selectedForum, setSelectedForum] = useState("");
